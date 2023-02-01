@@ -1,0 +1,31 @@
+/* style kich thuoc*/
+.movie-card {
+    position: relative;
+    cursor: pointer;
+    min-height: 300px;
+    min-width: 200px;
+    height: 300px;
+    width: 200px;
+}
+
+.movie-card.back-drop {
+    min-height: auto;
+    height: auto;
+}
+
+/* style hover img */
+.movie-card:hover img {
+    position: absolute;
+    transform: scale(1.05);
+    transition: all 0.2s ease-in;
+}
+
+.movie-list {
+    padding: 24px;
+    overflow-y: hidden;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,23 @@
+/* style css */
+.line-style {
+    height: 4px;
+    border-width: 0;
+    color: #DBE0E6;
+    background-color: #DBE0E6
+}
+
+.movie-trailer {
+    flex: 1;
+}
+
+.movie-trailer-content {
+    height: 100%;
+}
+
+.movie-info {
+    flex: 1;
+}
+
+.detail-movie {
+    height: 50vh;
+}
